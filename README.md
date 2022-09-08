@@ -1,4 +1,4 @@
-# RN_ez_structure
+# ez-rn-project-structure
 
 프로젝트 구조
 
