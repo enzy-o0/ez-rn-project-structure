@@ -14,7 +14,7 @@
     "build-storybook": "build-storybook",
     "test:generate-output": "jest --json --outputFile=.jest-test-results.json || true",
     "android:bundle": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
-    "android:apk": "cd android && ENVFILE=.env.dev ./gradlew app:assembleRelease --stacktrace",
+    "android:apk": "cd android && ENVFILE=.env.prod ./gradlew app:assembleRelease --stacktrace",
     "android:aab": "cd android && ENVFILE=.env.prod ./gradlew app:bundleRelease --stacktrace",
     "android:dev": "ENVFILE=.env.dev react-native run-android",
     "android:prod": "ENVFILE=.env.prod react-native run-android"
